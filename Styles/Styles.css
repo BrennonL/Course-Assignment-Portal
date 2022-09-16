@@ -1,0 +1,22 @@
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: aqua;
+}
+
+header, h1{
+    text-align: justify;
+}
+
+footer {
+    background-color: aqua;
+}
+
+img{
+    width: 150px;
+}
+
+body{
+    max-width: 500px;
+    margin:auto;
+}
