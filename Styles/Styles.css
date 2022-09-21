@@ -22,3 +22,7 @@ body{
     margin:auto;
 }
 
+h1, h2{
+    font-family: 'Kanit', sans-serif;
+}
+
