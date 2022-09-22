@@ -1,0 +1,10 @@
+@media only screen and (max-width: 32.5em) {
+    footer {
+        background-color: rgb(153, 0, 255);
+    }
+
+    header{
+        display: auto;
+        background-color: rgb(153, 0, 255);
+    }
+}
