@@ -4,6 +4,6 @@ let lastModified = new Date(document.lastModified);
 let newLastModified = Date.parse(document.lastModified);
 
 
-let coppyWrite = `<p>&copy ${year}</p>
+let coppyWrite = `<p>&copy ${year}| Brennon Laney|</p>
 <p>Last modified: ${lastModified}</p>`
 document.querySelector("footer").innerHTML = coppyWrite;
