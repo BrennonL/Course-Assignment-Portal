@@ -9,7 +9,7 @@ img{
 
 main{
     display: grid;
-    grid-template-columns: auto, auto auto;
+    grid-template-columns: auto auto auto;
 }
 
 h1{
