@@ -31,3 +31,19 @@ div, p{
 div, img{
     align-items: center;
 }
+
+p{
+    font-family: monospace;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;    
+}
