@@ -80,7 +80,7 @@ main div p:nth-child(3){
     display: none;
 }
 
-footer{
+#footerflex{
     display: flex;
 }
 
