@@ -4,12 +4,12 @@
         grid-template-rows: auto auto auto auto auto;
     }
 
-    main p:nth-child(1){
+    main div:nth-child(1){
         grid-column-start: 1;
         grid-column-end: 6;
     }
 
-    main p:nth-child(2){
+    main div:nth-child(2){
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 5;
@@ -17,25 +17,25 @@
 
 
 
-    main p:nth-child(3){
+    main div:nth-child(3){
         grid-column-start: 4;
         grid-column-end: 6;
         grid-row-start: 5;
     }
 
-    main p:nth-child(4){
+    main div:nth-child(4){
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 2;
     }
     
-    main p:nth-child(5){
+    main div:nth-child(5){
         display: block;
         grid-column-start: 1;
         grid-column-end: 6;
     }
     
-    main p{
+    main div{
         margin-top: none;
     }
     

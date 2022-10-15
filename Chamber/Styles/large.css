@@ -38,49 +38,56 @@
         grid-template-columns: auto auto auto auto;
     }
 
-    main p:nth-child(1){
+    /*This is the big middle one*/
+    main div:nth-child(1){
+        display: block;
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 3;
     }
 
-    main p:nth-child(2){
+    /*Event - the first on the left*/
+    main div:nth-child(2){
+        display: block;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
     }
 
 
-
-    main p:nth-child(3){
+    /*Weather - second on the left*/
+    main div:nth-child(3){
         display: block;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
     }
 
-    main p:nth-child(4){
+    /*News Release - Bottom middle, below the first div*/
+    main div:nth-child(4){
+        display: block;
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 3;
     }
     
-    main p:nth-child(5){
+    /*Join left bottom*/
+    main div:nth-child(5){
         display: block;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 3;
     }
     
-    main p{
+    main div{
         margin-top: none;
         margin-right: 15px;
     }
     
     
     
-    main div{
+    #Spotlight{
         display: flex;
         flex-direction: column;
 
@@ -91,16 +98,16 @@
         grid-column-end: 5;
 
         margin-bottom: 15px;
-        margin-top: 15px;
+
     }
     
-    main div p {
+    #Spotlight div {
         padding: 0;
         margin:0;
         flex-grow: 1;
     }
     
-    main div p:nth-child(3){
+    #Spotlight div:nth-child(3){
         display: block;
     }
 

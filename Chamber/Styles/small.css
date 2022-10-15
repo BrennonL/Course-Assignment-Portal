@@ -1,4 +1,4 @@
-main p{
+main div{
     background-color: #55b6b6;
     border: 1px solid black;
 }
@@ -56,22 +56,27 @@ main{
     grid-template-rows: 200px 200px 200px 200px 200px;
 }
 
-main p:nth-child(5){
+/*
+#TheBigRiver{
+
+}
+*/
+
+main div:nth-child(5){
     display:none;
 }
 
-main p{
+#Spotlight{
     margin-top: none;
 }
 
 
-
-main div{
+#Spotlight{
     display: grid;
     grid-template-rows: auto auto auto;
 }
 
-main div p {
+#Spotlight div {
     padding: 0;
     margin:0;
 }
