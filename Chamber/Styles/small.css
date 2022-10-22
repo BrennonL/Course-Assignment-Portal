@@ -71,6 +71,10 @@ main{
 }
 */
 
+#weatherIcon{
+    max-width: 25px;
+}
+
 main div:nth-child(5){
     display:none;
 }
