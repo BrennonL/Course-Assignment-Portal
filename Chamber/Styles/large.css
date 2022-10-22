@@ -29,6 +29,11 @@
         border-left: 1px solid rgba(0, 0, 0, 0.5);
     }
 
+    body{
+        max-width: 1300px;
+        margin: auto;
+    }
+
     #hamburgerBtn{
         display: none;
     }

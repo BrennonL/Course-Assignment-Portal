@@ -1,6 +1,8 @@
 main div{
     background-color: #55b6b6;
     border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 15px;
 }
 
 
@@ -11,6 +13,11 @@ nav ul{
 header{
     display: grid;
     grid-template-rows: auto auto;
+}
+
+#SecondHeader{
+    border: 1px, solid, black;
+    border-radius: 15px;
 }
 
 
@@ -41,9 +48,11 @@ h2{
     background-color: #BC986A;
 }
 
-img{
+img.logo{
     max-width: 100px;
 }
+
+
 
 h1, h2, h3{
     font-family: 'Anton', sans-serif;
