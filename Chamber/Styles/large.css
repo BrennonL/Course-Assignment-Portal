@@ -116,4 +116,9 @@
         display: block;
     }
 
+    #Discover_main{
+        grid-template-columns: auto;
+        grid-template-rows: none;
+    }
+
 }

@@ -59,4 +59,9 @@
     main div p:nth-child(3){
         display: none;
     }
+    #Discover_main{
+        grid-template-columns: auto;
+        grid-template-rows: none;
+    }
+
 }

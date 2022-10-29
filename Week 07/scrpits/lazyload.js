@@ -6,6 +6,7 @@ function loadImages(img) {
         return;
     }
     img.src = src;
+    img.removeAttribute("data-src");
 }
 
 const imgOptions = {
@@ -27,3 +28,5 @@ const imgObserver = new IntersectionObserver((items,imgObserver) => {
 imagesToLoad.forEach((image) => {
   imgObserver.observe(image);
 });
+
+

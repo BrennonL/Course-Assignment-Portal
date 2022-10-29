@@ -119,3 +119,32 @@ nav ul.open{display: block;}
 
 #hamburgerBtn.open span:nth-child(1){display: none;}
 #hamburgerBtn.open span:nth-child(2){display: block;}
+
+#Discover_main{
+    grid-template-columns: auto;
+    grid-template-rows: none;
+}
+
+
+picture{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+picture:hover{
+    border: 5px solid black ;
+}
+
+picture img[data-src]{
+    filter: blur(0.2em);
+}
+
+
+picture img{
+    filter: blur(0em);
+    transition: filter 0.5s;
+
+}
