@@ -1,9 +1,9 @@
-let imagesToLoad = document.querySelectorAll("img[data-src]")
+let imagesToLoad = document.querySelectorAll("[data-src]")
 
 
 function loadImage(img)
 {
-    let src = img.getAttribute("data-src")
+    const src = img.getAttribute("data-src")
     if (!src)
     {
         return;
@@ -34,7 +34,7 @@ const imgObserver = new IntersectionObserver((items, imgObserver) =>
             imgObserver.unobserve(item.target);
         }
     });
-}, imgOptions);
+}, imgVariables);
 
 imagesToLoad.forEach(img => {
     imgObserver.observe(img);
