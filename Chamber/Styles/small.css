@@ -148,3 +148,51 @@ picture img{
     transition: filter 0.5s;
 
 }
+
+
+/*-------------------SUBMIT FORM-------------------*/
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select{
+    -webkit-apperence: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+fieldset div{
+    display: block;
+}
+form fieldset div label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form label.top input:required{
+    border-left: red solid 6px;
+}
+
+form label.top input:required{
+    border-left: green solid 6px;
+}
+
+fieldset#options{
+    display: flex;
+}
+
+/*-----------------FOOTER--------------------*/
+footer{
+    display: block;
+}
+

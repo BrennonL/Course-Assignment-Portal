@@ -120,5 +120,18 @@
         grid-template-columns: auto;
         grid-template-rows: none;
     }
+    fieldset div{
+        display: block;
+    }
+
+    form{
+        display: block;
+    }
+
+    /*------------------FOOTER--------------*/
+
+    footer{
+        margin-top: 350px;
+    }
 
 }

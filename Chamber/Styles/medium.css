@@ -63,5 +63,8 @@
         grid-template-columns: auto;
         grid-template-rows: none;
     }
+    fieldset div{
+        display: block;
+    }
 
 }
