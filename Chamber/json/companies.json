@@ -1,0 +1,86 @@
+{
+    "Companies":
+    [
+        {
+            "Name" : "NBC",
+            "Phone_number": "212-664-4444",
+            "Adress" : "30 Rockefeller Plaza, New York, NY 10112, US",
+            "URL" : "https://www.nbc.com/",
+            "Image" : "./Images/NBC.jpg",
+            "Membership_status": "Gold"
+            
+        },
+
+        {
+            "Name" : "Mazda",
+            "Phone_number": "801-335-9349",
+            "Adress" : "Young Mazda, 4020 Riverdale Rd, South Ogden, UT 84405",
+            "URL" : "https://www.mazdausa.com/?semid=71972848487&providertag=MazdaSEM&servicetag=71972848487&k_keyword=mazda%20customer%20care&k_matchtype=e&gclid=Cj0KCQiAgribBhDkARIsAASA5bsoIjoillPhFn-TsSsiKvFIlLYei0XwG2nnbXCtk143wkXCTdp7JSwaAn3uEALw_wcB&gclsrc=aw.ds",
+            "Image" : "./Images/Mazda.jpg",
+            "Membership_status": "Gold"
+        },
+
+        {
+            "Name" : "Starbucks",
+            "Phone_number": "208-535-2520",
+            "Adress" : "Starbucks, 1555 Northgate Mile, Idaho Falls, ID 83401",
+            "URL" : "https://www.starbucks.com/store-locator/store/7224/fred-meyer-idaho-falls-156-1555-northgate-mile-idaho-falls-id-834012014-us",
+            "Image" : "./Images/StarBucks.jpg",
+            "Membership_status": "Silver"
+        },
+
+        {
+            "Name" : "McDonalds",
+            "Phone_number": "208-356-6141",
+            "Adress" : "850 University Blvd, Rexburg, ID 83440",
+            "URL" : "850 University Blvd, Rexburg, ID 83440",
+            "Image" : "./Images/McDonalds.jpg",
+            "Membership_status": "Bronze"
+        },
+
+        {
+            "Name" : "Ikea",
+            "Phone_number": "888-888-4532",
+            "Adress" : "IKEA, 67 Ikea Way, Draper, UT 84020",
+            "URL" : "https://www.ikea.com/us/en/stores/draper/?utm_source=google&utm_medium=organic&utm_campaign=map&utm_content=draper",
+            "Image" : "./Images/Ikea.jpg",
+            "Membership_status": "Silver"
+        },
+
+        {
+            "Name" : "Apple",
+            "Phone_number": "208-356-3280",
+            "Adress" : "76 W 2nd S STE C, Rexburg, ID 83440",
+            "URL" : "http://www.isourcemac.com/",
+            "Image" : "./Images/apple.jpg",
+            "Membership_status": "Silver"
+        },
+
+        {
+            "Name" : "Volkswagen",
+            "Phone_number": "1-800-822-8987",
+            "Adress" : "2220 W Sunnyside Rd, Idaho Falls, ID 83402",
+            "URL" : "https://www.vw.com/en/contact.html",
+            "Image" : "./Images/volkswagen.jpg",
+            "Membership_status": "Bronze"
+        },
+
+        {
+            "Name" : "Chick-Fil-A",
+            "Phone_number": "866-232-2040",
+            "Adress" : "Manwaring Center, 525 S Center St, Rexburg, ID 83460",
+            "URL" : "https://www.chick-fil-a.com/locations",
+            "Image" : "",
+            "Membership_status": "Gold"
+        },
+
+        {
+            "Name" : "Qarea",
+            "Phone_number": "310-388-9334",
+            "Adress" : "Olympic Blvd, Beverly Hills, CA 90211 USA",
+            "URL" : "https://qarea.com/contact-us",
+            "Image" : "./Images/Qarea.jpg",
+            "Membership_status": "Bronze"
+        }
+    ]
+}
