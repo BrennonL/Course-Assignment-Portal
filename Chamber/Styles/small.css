@@ -196,3 +196,57 @@ footer{
     display: block;
 }
 
+
+
+
+/* ----------------------DIRECTOR_PAGE------------------------ */
+
+
+/* -----------------main---------------- */
+main div#companies_display{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: white;
+    border: none;
+}
+
+main div#companies_display section{
+    background-color: #55b6b6;
+    border: 2px, solid, black;
+    box-shadow: 5px 5px 15px gray;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    max-width: 350px;
+}
+
+main div#companies_display section div{
+    background-color: none;
+    border:none;
+    margin-left: 1vw;
+
+}
+
+#director_main{
+    display: block;
+}
+
+main div#companies_display section img{
+    margin-left: 1vw;
+
+
+}
+
+main div#companies_display section h2{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: #55b6b6;
+}
+
+#director_main h2{
+    background-color: white;
+    border-bottom: 5px solid #8D8741;
+
+}
+
+

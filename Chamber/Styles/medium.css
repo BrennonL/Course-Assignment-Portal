@@ -67,4 +67,19 @@
         display: block;
     }
 
+        /* ----------------------DIRECTOR_PAGE------------------------ */
+
+
+    /* -----------------main---------------- */
+    main div#companies_display{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: white;
+        border: none;
+    }
+
+    main div#companies_display section div{
+        display: block;
+    }
+
 }

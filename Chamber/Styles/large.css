@@ -134,4 +134,21 @@
         margin-top: 350px;
     }
 
+
+
+    /* ----------------------DIRECTOR_PAGE------------------------ */
+
+
+    /* -----------------main---------------- */
+    main div#companies_display{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        background-color: white;
+        border: none;
+    }
+
+
+
+    
+
 }
