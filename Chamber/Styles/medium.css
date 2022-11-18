@@ -4,6 +4,11 @@
         grid-template-rows: auto auto auto auto auto;
     }
 
+    main div{
+        display: flex;
+        flex-direction: column;
+    }
+
     main div:nth-child(1){
         grid-column-start: 1;
         grid-column-end: 6;

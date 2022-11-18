@@ -21,6 +21,7 @@ async function apiFetch()
             const data = await response.json();
 
             // I have this here for the purpose of de-buging and finding values from the data 
+            console.log(data);
             DisplayResults(data);
         }
         else

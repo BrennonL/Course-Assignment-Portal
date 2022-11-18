@@ -24,7 +24,7 @@ header{
 header div:nth-child(1){
     display: flex;
     grid-row-start: 1;
-    
+
 }
 
 header nav ul li a{
@@ -64,6 +64,21 @@ main{
     display:grid;
     grid-template-rows: 200px 200px 200px 200px 200px;
 }
+
+
+
+/* ------------THE_WEATHER_SECTION---------------- */
+
+div#Weather-section div{
+    border: none;
+}
+
+div#Weather-section p:nth-child(3) {
+    display: block;
+}
+
+
+/* ------------------------------------------------ */
 
 /*
 #TheBigRiver{
