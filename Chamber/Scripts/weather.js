@@ -4,14 +4,14 @@
 const weatherIcon = document.querySelector('#weatherIcon');
 const weatherText = document.querySelector('#weatherTxt');
 
-const url = 'http://api.openweathermap.org/data/2.5/forecast?q=San-Antonio&units=imperial&appid=c2cd5f54ad9d5f653c364a053f62212c';
+const url = 'https://api.openweathermap.org/data/2.5/forecast?q=San-Antonio&units=imperial&appid=c2cd5f54ad9d5f653c364a053f62212c';
 
 
 function DisplayWeatherResults(data)
 {
     const weatherDescrtiption = data.list[0].weather[0].description;
     
-    weatherIcon.src = `http://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
+    weatherIcon.src = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
     weatherIcon.alt = weatherDescrtiption;
     
     let windSpeed = data.list[0].wind.speed;

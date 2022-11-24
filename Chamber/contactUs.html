@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <style>@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200&family=Kanit:ital,wght@1,900&display=swap');</style>
+
+        <link rel = "stylesheet" href = "Styles/small.css">
+        <link rel = "stylesheet" href = "Styles/medium.css">
+        <link rel = "stylesheet" href = "Styles/large.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <header>
+            <div id="headerContent">
+                <img class="logo" src = "Images/Your River Walk-logos.jpeg" alt = "Company Logo">
+                <h1>The River that Splits the City</h1>
+                <nav>
+                    <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
+                    <ul id="primaryNav">
+                        <li><a href="./discover.html">Discover</a></li>
+                        <li><a href="Director.html">Directory</a></li>
+                        <li><a href="./join.html">Join</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div id="SocialMedia">
+                
+                    <a href="https://www.facebook.com/"><img src="Images/facebook.jpg"></a>
+                    <a href="https://www.linkedin.com/"><img src="Images/linkedin.jpg"></a>
+                </div>
+            </div>
+            <div id="SecondHeader">
+
+            </div>
+            <div id="ThirdHeader"></div>
+        </header>
+        <main>
+
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top">First Name*<input type="text" name="first_name" required></label>
+                    <label class="top">Last Name*<input type="text" name="last_name" required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="someone@email.com" required></label>
+                    <label class="top">Address<input type="text" name="address" ></label>
+                </fieldset>
+                <input type="submit" value="Send Contact Information" class="submitBtn">
+            </form>
+
+            <div>
+                <h3>Business Contact info</h3>
+                <ul>
+                    <li>Email: </li>
+                    <li>Phone Number: </li>
+                    <li>Address: <a href="https://www.google.com/maps/dir//29.4244236,-98.4926944/@29.4296013,-98.5040997,14.67z">Here</a></li>
+                    <li>Office Hours: 7am-5pm</li>
+                </ul>
+            </div>
+
+        </main>
+        <footer>
+            <div id = "footerflex">
+                <img class="logo" src = "Images/Your River Walk-logos.jpeg" alt = "Company Logo">
+                <h3>The River that Splits the City</h3>
+                <p>Brennon Laney - brennon.laney@gmail.com - WDD 230 project
+                </p>
+                <p><a href="https://www.google.com/maps">Location</a></p>
+            </div>
+            <div id ="footerContent">
+
+            </div>
+        </footer>
+        <script src="./Scripts/Form.js"></script>
+        <script src = "Scripts/Chamber.js"></script>
+    </body>
+</html>
