@@ -6,7 +6,7 @@ const captionDesc = document.querySelector('figcaption');
 const weatherIcon = document.querySelector('#weather-icon');
 
 // Here is the url API is stored in the variable url
-const url = 'http://api.openweathermap.org/data/2.5/forecast?q=Fairbanks&units=imperial&appid=c2cd5f54ad9d5f653c364a053f62212c';
+const url = 'https://api.openweathermap.org/data/2.5/forecast?q=Fairbanks&units=imperial&appid=c2cd5f54ad9d5f653c364a053f62212c';
 
 async function apiFetch()
 {
