@@ -37,16 +37,16 @@ const visitsDisplay = document.querySelector("#timesvisited");
 let numVisits = Number(localStorage.getItem('visits-ls'));
 
 
-// if (numVisits !== 0) 
-// {
-//     visitsDisplay.textContent = `number of visist: ${numVisits}`;
-// }
+if (numVisits !== 0) 
+{
+    visitsDisplay.textContent = `number of visist: ${numVisits}`;
+}
 
-// else 
-// {
-//     visitsDisplay.textContent = `This is your first visit`;
-// }
+else 
+{
+    visitsDisplay.textContent = `This is your first visit`;
+}
 
-// numVisits ++;
+numVisits ++;
 
-// localStorage.setItem('visits-ls', numVisits);
+localStorage.setItem('visits-ls', numVisits);
