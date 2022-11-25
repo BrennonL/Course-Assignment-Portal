@@ -147,9 +147,22 @@ nav ul.open{display: block;}
 #hamburgerBtn.open span:nth-child(1){display: none;}
 #hamburgerBtn.open span:nth-child(2){display: block;}
 
+
+/* ----------------------DISCOVER PAGE----------------------- */
+
 #Discover_main{
     grid-template-columns: auto;
     grid-template-rows: none;
+}
+
+main#Discover_main p{
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+main#Discover_main picture{
+    padding-bottom: 0px;
+    margin-top: 10px;
 }
 
 
@@ -225,6 +238,10 @@ form label.top input:required{
 
 fieldset#options{
     display: flex;
+}
+
+div#displayinfo p{
+    display: block;
 }
 
 /*-----------------FOOTER--------------------*/

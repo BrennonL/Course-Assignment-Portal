@@ -1,9 +1,9 @@
-const test = document.querySelector('input[value="NP"]')
+const hello = document.querySelector('input[value="NP"]')
 const test1 = document.querySelector('input[value="bronze"]')
 const test2 = document.querySelector('input[value="silver"]')
 const test3 = document.querySelector('input[value="gold"]')
 
-test.addEventListener("click", doThis)
+hello.addEventListener("click", doThis)
 test1.addEventListener("click", doThis1)
 test2.addEventListener("click", doThis2)
 test3.addEventListener("click", doThis3)
@@ -44,14 +44,14 @@ function doThis3()
 }
 
 
-var d = new Date();
+var date = new Date();
 
 // Get today's date
-var day = d.getDate();
-var month = d.getMonth() + 1; // The months are 0-based
-var year = d.getFullYear();
-var hour = d.getHours();
-var min = d.getMinutes();
+var day = date.getDate();
+var month = date.getMonth() + 1; // The months are 0-based
+var this_year = date.getFullYear();
+var hour = date.getHours();
+var min = date.getMinutes();
 
 // Set the date field to the current date
-document.getElementById("date").value = day + "/" + month + "/" + year + " " + hour + ":" + min;
+document.getElementById("date").value = day + "/" + month + "/" + this_year + " " + hour + ":" + min;
