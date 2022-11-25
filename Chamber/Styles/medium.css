@@ -10,6 +10,8 @@
     }
 
     main div:nth-child(1){
+    
+        grid-template-rows: 1;
         grid-column-start: 1;
         grid-column-end: 6;
     }
@@ -46,14 +48,14 @@
     
     
     
-    main div{
+    /* main div{
         display: flex;
 
 
         grid-row-start: 3;
         grid-column-start: 1;
         grid-column-end: 6;
-    }
+    } */
     
     main div p {
         padding: 0;
