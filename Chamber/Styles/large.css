@@ -92,7 +92,7 @@
     
     
     
-    #Spotlight{
+    main div#Spotlight{
         display: flex;
         flex-direction: column;
 
@@ -105,6 +105,10 @@
         margin-bottom: 15px;
 
     }
+
+    main div#Spotlight div:nth-child(3){
+        display: block;
+    }
     
     #Spotlight div {
         padding: 0;
@@ -112,9 +116,7 @@
         flex-grow: 1;
     }
     
-    #Spotlight div:nth-child(3){
-        display: block;
-    }
+
 
     #Discover_main{
         grid-template-columns: auto;
